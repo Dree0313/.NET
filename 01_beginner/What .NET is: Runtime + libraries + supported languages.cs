@@ -18,97 +18,39 @@ __________________________________________________________________________
     including runtime, libraries, and language support
   Why use it: Ensures your apps can run consistently across devices and
     leverage prebuilt functionality
-  Core concept: Think of .Net as a toolbox and workshop combined */
+  Core concept: Think of .Net as a toolbox and workshop combined 
+  Example: You eant to write a console app that prints "Hello World". .NET 
+    handles running the program, memory, and access to librarires.*/
 __________________________________________________________________________
-/* Example: 
-  You eant to write a console app that prints "Hello World". .NET handles
-  running the program, memory, and access to librarires.
-
-Code Example: (C# console app) */
+// Code Example: (C# console app)
   Console.WriteLine("Hello World!");
 
 /* Expected Result:
   Hello World! appears in the console output */
 
 __________________________________________________________________________
--- 2 Select Specific columns
--- What it does: Retrieves only the columns specified
--- Why use it: Helps focus on relevant data and reduce clutter
--- Syntax: SELECT column1, column2 FROM table_name;
+/* 2 Runtime
+  What it does: The runtime executes your code, handles memory, errors, 
+    and security
+  Why use it: Lets developers focus on writing functionality instead of 
+    low-level system details */
 __________________________________________________________________________
--- Problem:
-  -- HR only wants first and last names to send birthday emails
-
---Solution:
-SELECT first_name, last_name
-FROM employees;
-
--- Expected Result:
-  -- first_name  Alice    Bob   Carol   Dave    Eve
-  -- last_name  Johnson  Smith  Davis  Wilson  Taylor
-
+/* 3 Libraries
+  What it does: Provides prewritten code for common tasks like file 
+    handling, math operations, or text processing
+  Why use it: Saves time and ensures reliability */
 __________________________________________________________________________
--- 3 Column aliases
--- What it does: Gives a temporary name to a column for readability
--- Why use it: Makes results easier to understnad, especially for reports
--- Syntax: SELECT column AS alias_name FROM table_name;
-__________________________________________________________________________
--- Problem:
-  -- HR wants the columns labeled nicely in the report
+// Example: Using a library to read a file:
+      using System.IO;
+      string text = File.ReadAllText("example.txt");
+      Console.WriteLine(text);
 
--- Solution:
-SELECT first_name AS "First Name", last_name AS "Last Name"
-FROM employees;
-
--- Expected Result:
-  -- First Name  Alice    Bob   Carol   Dave    Eve
-  -- Last Name  Johnson  Smith  Davis  Wilson  Taylor
+/* Expected Result:
+  Contents of example.txt are printed to the console */
 
 __________________________________________________________________________
--- 4 DISTINCT keyword
--- What it does: Returns only unique values, removing duplicates
--- Why use it: Helps identify unique entries or categories in a table
--- Syntax: SELECT DISTINCT column FROM table_name;
-__________________________________________________________________________
--- Problem:
-  -- HR wants a list of unique departments
-
--- Solution:
-SELECT DISTINCT department
-FROM employees;
-
--- Expected Result:
-  -- department  HR  IT  Finance
-
-__________________________________________________________________________
--- 5 Literals
--- What it does: Adds static text or numbers to query results
--- Why use it: Can label results or add context without changing the table
--- Syntax: SELECT column, 'Literal' AS alias FROM table_name;
-__________________________________________________________________________
--- Problem:
-  -- HR wants a list of employees with their roles labeled
-
--- Solution:
-SELECT first_name, 'Employee' AS role
-FROM employees;
-
--- Expected Result:
-  -- first_name  Alice      Bob      Carol      Dave      Eve
-  -- role       Employee  Employee  Employee  Employee  Employee
-__________________________________________________________________________
--- 6 Concatenation (SQLite-specific)
--- What it does: Combines values from multiple columns into one
--- Why use it: Useful for full names, addresses, or other combined fields
--- Syntax: SELECT column || ' ' || column2 AS alias FROM table_name;
-__________________________________________________________________________
--- Problem:
-  -- HR wants full names in one column
-
--- Solution:
-SELECT first_name || ' ' || last_name AS full_name
-FROM employees;
-
--- Expected Result:
-  -- full_name  Alice Johnson  Bob Smith  Carol Davis  Dave Wilson  Eve Taylor
-
+/* 4 Suppoeted Languages
+  What it does: Allows multiple languages to compile into .NET 
+    Intermediate Language (IL) and run on the runtime
+  Why use it: Offers flexibility to choose a language you are comfortable
+    with while using the same platform */
