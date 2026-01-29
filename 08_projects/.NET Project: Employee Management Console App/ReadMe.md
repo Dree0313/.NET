@@ -100,3 +100,84 @@ Write a console application with structured menus
 Handle input validation and exceptions
 
 Practice OOP principles applied to real-world data
+
+Deliverables
+1️⃣ Source Code
+
+Program.cs → main console application logic
+
+Models/Employee.cs → Employee class definition
+
+Models/Department.cs → Department class definition
+
+Services/EmployeeService.cs → methods for adding, updating, deleting, filtering employees
+
+Services/DepartmentService.cs → methods for adding, updating, deleting departments
+
+2️⃣ Project Structure
+
+Organized folders: Models, Services, Program.cs
+
+Proper naming conventions for classes and methods
+
+Solution file (.sln) if using Visual Studio
+
+3️⃣ Functionality Demonstration
+
+Console app menu that allows:
+
+Viewing all employees
+
+Viewing all departments
+
+Adding/updating/removing employees
+
+Filtering/sorting employees by salary, department, or active status
+
+Calculating payroll totals or averages
+
+Optional: Department management menu
+
+4️⃣ Documentation
+
+A README file including:
+
+Project purpose
+
+How to run the app
+
+Features implemented
+
+Any known issues or limitations
+
+Inline comments in code explaining:
+
+Methods
+
+Important logic or calculations
+
+Class purpose and relationships
+
+5️⃣ Sample Data
+
+Predefined list of employees and departments for testing
+
+Examples to demonstrate:
+
+Adding a new employee
+
+Updating salary
+
+Filtering by department
+
+Aggregations (total/average salaries)
+
+6️⃣ Optional Extra (Shows Initiative)
+
+Exception handling (invalid input, negative salaries)
+
+Input validation
+
+Sub-menu for department management
+
+Highlight use of OOP principles in code structure
