@@ -1,27 +1,46 @@
-🟢 Level 1: Beginner (.NET Foundations)
+# Tier 1: Beginner — .NET Foundations
 
-Goal: Understand what .NET is and how apps run
+## Purpose
+This section focuses on **.NET language and runtime fluency**.  
+The goal is to become comfortable reading, understanding, and writing basic .NET/C# programs with correct syntax and predictable behavior.
 
-Core Topics
+At this stage, the emphasis is on:
+- Understanding what .NET is and how it runs programs
+- Becoming familiar with basic C# syntax and structures
+- Building confidence writing simple applications
 
-What .NET is (runtime + libraries + languages)
+---
 
-CLR (Common Language Runtime)
+## Concepts Covered
 
-IL (Intermediate Language)
+### .Net Overview
+- What .Net is: Runtime + libraries + support languages
+- CLR (Common Language Runtime): Executes programs and manages memory
+- IL (Intermediate Language): What C# code is compiled to before execution
+- .NET SDK vs Runtime: SDK includes tools to build programs; Runtime only runs them
+- Project Types:
+  - Console apps (basic programs)
+  - Class libraries (reusable code components)
 
-.NET SDK vs Runtime
+### C# Basics
+- Variables: Declaring and using different types (`int`, `string`, `bool`, etc.)
+- Loops: `for`, `while`, `foreach`
+- Conditionals: `if`, `else if`, `else`, `switch`
+- Methods: Declaring, calling, passing, parameters, and returning values
+- Classes & Objects:
+  - Defining classes
+  - Creating objects
+  - Understanding properties and methods
 
-Project types:
+---
 
-Console apps
+## Expected Outcome
+After completing this tier, I should be able to:
+- Understand what .NET is and how programs run on the CLR
+- Write simple console applications in C#
+- Use basic C# syntax: variables, loops, conditionals, and methods
+- Define classes and create objects
+- Build confidence in navigating a .NET development environment (VS Code)
 
-Class libraries
 
-C# basics:
 
-Variables, loops, conditionals
-
-Methods
-
-Classes & objects
