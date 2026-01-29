@@ -14,7 +14,7 @@ At this stage, the emphasis is on:
 ## Concepts Covered
 
 ### .Net Overview
-- [What .Net is: Runtime + libraries + support languages](.Net Overview)
+- [What .Net is: Runtime + libraries + support languages](.Net_Overview/What .Net is: Runtime + libraries + support languages.cs)
 - CLR (Common Language Runtime): Executes programs and manages memory
 - IL (Intermediate Language): What C# code is compiled to before execution
 - .NET SDK vs Runtime: SDK includes tools to build programs; Runtime only runs them
