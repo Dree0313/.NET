@@ -57,6 +57,10 @@ NuGet packages
 
 Basic logging
 
+.NET Web Application Awareness
+
+Source Control
+
 📌 Outcome:
 You can build small utilities and structured programs.
 
@@ -85,6 +89,12 @@ RESTful API design
 Authentication basics
 
 Unit testing (xUnit / NUnit)
+
+Database connectivity in practice
+
+Basic JavaScript Integration
+
+Debugging & Exception Handling in Web Context
 
 📌 Outcome:
 You can build APIs that talk to databases and are testable.
