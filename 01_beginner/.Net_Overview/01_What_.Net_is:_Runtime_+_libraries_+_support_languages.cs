@@ -5,16 +5,18 @@ Purpose: Understand the fundamentals of .NET, how it runs apps, and what
   languages it supports */
 __________________________________________________________________________
 
-/* Scenerio:
+/* 
+Scenerio:
   You are a junior developer at a company. Your manager wants you to 
   understand the tools you'll be using so you can build, run, and maintain
   applications effectively
 
-  Goal: Learn the building blocks of .Net to prepare for writing your first
+Goal: Learn the building blocks of .Net to prepare for writing your first
     program */
 
 __________________________________________________________________________
-/* 1️ What is .NET?
+/* 
+1️ What is .NET?
   What it does: Provides a platform for building and running applications
     including runtime, libraries, and language support
   Why use it: Ensures your apps can run consistently across devices and
@@ -26,17 +28,20 @@ __________________________________________________________________________
 // Code Example: (C# console app)
   Console.WriteLine("Hello World!");
 
-/* Expected Result:
+/* 
+Expected Result:
   Hello World! appears in the console output */
 
 __________________________________________________________________________
-/* 2 Runtime
+/* 
+2 Runtime
   What it does: The runtime executes your code, handles memory, errors, 
     and security
   Why use it: Lets developers focus on writing functionality instead of 
     low-level system details */
 __________________________________________________________________________
-/* 3 Libraries
+/* 
+3 Libraries
   What it does: Provides prewritten code for common tasks like file 
     handling, math operations, or text processing
   Why use it: Saves time and ensures reliability */
@@ -46,7 +51,8 @@ __________________________________________________________________________
       string text = File.ReadAllText("example.txt");
       Console.WriteLine(text);
 
-/* Expected Result:
+/* 
+Expected Result:
   Contents of example.txt are printed to the console */
 
 __________________________________________________________________________
