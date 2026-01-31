@@ -7,6 +7,7 @@ namespace EmployeeManagement
     static void Main(string[] args)
     {
       // Need menu loop
+      Console.WriteLine("Welcome to the Employee Management System");
     }
   }
 }
