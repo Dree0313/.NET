@@ -1,5 +1,6 @@
 __________________________________________________________________________
-/* Beginner .NET: Common Language Runtime (CLR)
+/* 
+Beginner .NET: Common Language Runtime (CLR)
 Purpose: Understand what the CLR is, how it executes programs, and manages
   memory */
 __________________________________________________________________________
