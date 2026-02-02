@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using EmployeeManagement.Models;
+using EmployeeManagement.Services;
 
 namespace EmployeeManagement
 {
@@ -7,7 +10,9 @@ namespace EmployeeManagement
     static void Main(string[] args)
     {
       // Need menu loop
-      Console.WriteLine("Welcome to the Employee Management System");
+      Console.WriteLine("Employee Management Console App");
+      Console.WriteLine("===============================");
+      
     }
   }
 }
