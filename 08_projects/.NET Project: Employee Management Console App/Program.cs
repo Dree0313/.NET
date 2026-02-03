@@ -10,8 +10,10 @@ namespace EmployeeManagement
     static void Main(string[] args)
     {
       // Need menu loop
-      Console.WriteLine("Employee Management Console App");
-      Console.WriteLine("===============================");
+      List<Employee> employees = new List<Employee>();
+      List<Department> department = new List<Department>();
+
+      departments.Add(new Department { Id = 1, Name = "HR"});
       
     }
   }
