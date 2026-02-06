@@ -19,7 +19,7 @@ At this stage, the emphasis is on:
 - [IL (Intermediate Language): What C# code is compiled to before execution](01_.Net_Overview/03_IL_(Intermediate_Language)_What_Csharp_code_is_compiled_to_before_execution.cs)
 - [.NET SDK vs Runtime: SDK includes tools to build programs; Runtime only runs them](01_.Net_Overview/04_.NET_SDK_vs_Runtime:_SDK_includes_tools_to_build_programs;_Runtime_only_runs_them.cs)
 - Project Types:
-  - Console apps (basic programs)
+  - [Console apps (basic programs)](01_.Net_Overview/05_Console_apps_(basic_programs).cs)
   - Class libraries (reusable code components)
 
 ### C# Basics
