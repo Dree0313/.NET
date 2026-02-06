@@ -1,90 +1,87 @@
 __________________________________________________________________________
 /* 
-Beginner .NET: SDK vs Runtime
-Purpose: Understand the difference between the .NET SDK and the .NET 
-  Runtime, what each does, and when you need them */
+Beginner .NET: Console Applications
+Purpose: Understand what console applications are, how they work, and when
+  to use them */
 __________________________________________________________________________
 
 /* 
 Scenerio:
   You are a junior developer at a company. Your manager wants you to 
-  understand what tools you need to build .NET applications versus what
-  is required to run them in production environments
+  start with simple programs so you can focus on learning C#, program
+  flow, and .NET fundamentals without worrying about user interfaces.
 
-Goal: Learn the difference between the .NET SDK and .NET Runtime and when
-  each one is needed */
+Goal: Learn what console applications are and how to create and run a
+  basic program */
 
 __________________________________________________________________________
 /* 
-1️ What is the .NET SDK?
-  What it does: The Software Developmnet Kit (SDK) includes everything
-    needed to build, test, and package .NET applications
-  Why use it: Deveolopers need the SDK to write code, compile it, and 
-    create executable programs.
-  Core concept: Think of the SDK as a workshop with all the tools to 
-    create an application.
-  Includes:
-    - Compilers (C# compiler)
-    - dotnet CLI (build, run, test, publish)
-    - Project templates
-    - Build tools */
+1️ What is a Console Application?
+  What it does: A console application is a basic program that runs in a
+    command-line window and interacts with userrs through text input and
+    output.
+  Why use it: Console apps are simple, fast to build, and ideal for 
+    learnig, testing logic, automation, and backend tasks.
+  Core concept: Think of a console app as a conversation between your 
+    program and the user using text only.
+   Example: A program that asks for your name and prints a greeting in
+     the terminal
 __________________________________________________________________________
-/* Example: Using the SDK to create and run a project
-  dotnet new console
-  dotnet build
-  dotnet run
+/*
+Code Example: Simple Console App */
+  Console.WriteLine("What is your name?");
+  string name = Console.ReadLine();
+  Console.WriteLine($"Hello, {name}!");
 
- 
+/*
 Expected Result:
-  A new console applicaiton is created, compiled into IL, and executed.*/
+  What is your name?
+  user input: Alexandria
+  Hello, Alexandria! */
 
 __________________________________________________________________________
 /* 
-2 What is the .NET Runtime?
-  What it does: The Runtime provides the components required to run .Net
-    applications that have already been built.
-  Why use it: Machines running .NET apps (servers, user PCs) do not need
-    development tools, only the ability to execute the program. 
-  Core concept: Think of the Runtime as the engine that runs the 
-    application, but cannot build it.
-  Includes:
-    - Common Language Runtime (CLR)
-    - Garbage Collector
-    - Base Class Libraries required at runtime */
+2 How Console Applications Run
+  What it does: 
+    - Program starrts at the entry point (Main method)
+    - Code executes line by line
+    - Output is written to the console window
+  Why use it: Helps beginners understand program flow and execution 
+    order */
 __________________________________________________________________________
 /* 
-3 SDK vs Runtime Comparison */
+3 Creating a Console App with the .NET SDK
+  What it does: Uses the .NET SDK to generate and run a console app
+  Why use it: Saves time and ensures correct project setup
+  */
 __________________________________________________________________________
 /* 
-SDK:
-  - Build applications
-  - Compile C# into IL
-  - Create Projects
-  - Used by developters
+Example: Creating a console app
+ dotnet new console
+ dotnet run
 
-Runtime:
-  - Run applications
-  - Execute IL via the CLR
-  - Manage memory and execcution
-  - Used on production machines */
+Expected Result:
+  A console window opens and runs the program */
 
 __________________________________________________________________________
 /* 
-4 When Do You Need Each One?
-  Development machine: SDK required 
-  Production server: Runtime only
-  End-user computer: Runtime only */
+4 Common Uses of Console Applications
+  Uses include:
+    - Learning C# and .NET fundamentals
+    - Writing scripts and automation tools
+    - Running background or batch jobs
+    - Testing business logic */
 __________________________________________________________________________
 
 __________________________________________________________________________
 /* 
-5 How SDK and Runtime Work Together
-  Flow:
-    Write C# Code
-    ↓
-    SDK compiles code into IL
-    ↓
-    Application is packed as an assembly (.exe / .dll)
-    ↓
-    Runtime executes IL using CLR and JIT */
+5 Console Apps vs Other App Types
+  Console App:
+    - Text-based
+    - No graphical interface
+    - Simple and lightweight
+  GUI / Web App:
+    - Visual interface
+    - More setup and complexity
+    - Built on top of the same .NET runtime */
 __________________________________________________________________________
