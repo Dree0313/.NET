@@ -24,7 +24,7 @@ __________________________________________________________________________
     learnig, testing logic, automation, and backend tasks.
   Core concept: Think of a console app as a conversation between your 
     program and the user using text only.
-   Example: A program that asks for your name and prints a greeting in
+  Example: A program that asks for your name and prints a greeting in
      the terminal */
 __________________________________________________________________________
 /*
