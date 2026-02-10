@@ -20,7 +20,7 @@ At this stage, the emphasis is on:
 - [.NET SDK vs Runtime: SDK includes tools to build programs; Runtime only runs them](01_.Net_Overview/04_.NET_SDK_vs_Runtime:_SDK_includes_tools_to_build_programs;_Runtime_only_runs_them.cs)
 - Project Types:
   - [Console apps (basic programs)](01_.Net_Overview/05_Console_apps_(basic_programs).cs)
-  - Class libraries (reusable code components)
+  - [Class libraries (reusable code components)](01_.Net_Overview/06_Class_libraries_(reusable_code_components).cs)
 
 ### C# Basics
 - Variables: Declaring and using different types (`int`, `string`, `bool`, etc.)
