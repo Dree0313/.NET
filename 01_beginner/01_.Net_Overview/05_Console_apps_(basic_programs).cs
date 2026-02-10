@@ -25,7 +25,7 @@ __________________________________________________________________________
   Core concept: Think of a console app as a conversation between your 
     program and the user using text only.
    Example: A program that asks for your name and prints a greeting in
-     the terminal
+     the terminal */
 __________________________________________________________________________
 /*
 Code Example: Simple Console App */
