@@ -9,11 +9,16 @@ namespace EmployeeManagement
   {
     static void Main(string[] args)
     {
-      // Need menu loop
-      List<Employee> employees = new List<Employee>();
-      List<Department> department = new List<Department>();
 
-      departments.Add(new Department { Id = 1, Name = "HR"});
+      var employeeService = new EmployeeService();
+      var departmentService = new DepartemtnService();
+
+      bool running = true;
+
+      while (running)
+      {
+
+      }
       
     }
   }
