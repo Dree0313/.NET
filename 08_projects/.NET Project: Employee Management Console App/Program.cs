@@ -11,7 +11,7 @@ namespace EmployeeManagement
     {
 
       var employeeService = new EmployeeService();
-      var departmentService = new DepartemtnService();
+      var departmentService = new DepartmentService();
 
       bool running = true;
 
