@@ -10,15 +10,12 @@ namespace EmployeeManagement
     static void Main(string[] args)
     {
 
-      var employeeService = new EmployeeService();
-      var departmentService = new DepartmentService();
+      EmployeeService employeeService = new EmployeeService();
+      DepartmentService departmentService = new DepartmentService();
 
-      bool running = true;
-
-      while (running)
-      {
-
-      }
+      departmentService.AddDepartment(new Department { Id = 1, Name = "HR"});
+      departmentService.AddDepartment(new Department { Id = 2, Name = "IT"});
+      departmentService.AddDepartment(new Department { Id = 3, Name = "Finance"});
       
     }
   }
