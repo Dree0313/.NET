@@ -68,7 +68,8 @@ __________________________________________________________________________
     used in an application
   Why use it: Separates business logic from application logic */
 __________________________________________________________________________
-// Example: Using the class library in a console app
+/* 
+Example: Using the class library in a console app */
   GreetingService service = new GreetingService();
   Console.WriteLine(service.GetGreeting("Alexandria"));
 
