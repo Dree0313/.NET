@@ -24,78 +24,80 @@ __________________________________________________________________________
   Example: Storing a user's age, name, or login status in your program */
 __________________________________________________________________________
 /*
-Code Example: Class in a Class Library */
-  public class Greeting Service
-  {
-    public string GetGreeting(string name)
-    (
-      return $"Hello, {name}!";
-    }
-  }
+Code Example: Declaring and Using Variables */
+  int age = 25;
+  string name = "Alexandria";
+  bool isStudent = true;
+  Console.WriteLine($"Name: {name}, Age: {age}, Student: {isStudent}");
 
 /*
 Expected Result:
- This code does not run by itself
-  It must be referenced by anotherr application (console, web, etc.) */
+  Name: Alexandria, Age: 25, Student: true */
 
 __________________________________________________________________________
 /* 
-2 How Class Libraries Are Used
-  What it does: 
-    - Stores shared Logic
-    - Exposes methods and classes
-    - Is referenced by other .NET projects
-  Why use it: Keeps applications small and focused while sharing common
-      functionality */
+2 Common Variable Types in C#
+  int - Whole numbers (e.g., 10, -5)
+  double - Decimal numbers (e.g., 3.14, 0.5)
+  string - Text (e.g., "Hello World")
+  bool - True / False values (e.g., true, false)
+  char - Single characters (e.g., 'A', 'z')
+  var - Compiler infers type from assigned value */
 __________________________________________________________________________
 /* 
-3 Creating a Class Library with the .NET SDK
-  What it does: Uses the .NET SDK to generate a class library project
-  Why use it: Ensures proper structure and compatibility
+3 Declaring Variables
+  Why use it: Gives the compiler information about what kind of data will
+    be stored
+  Syntax: <type> <name> = <value>;
   */
 __________________________________________________________________________
 /* 
-Example: Creating a class library
- dotnet new classlib
+Example: */
+  int score = 100;
+  string message = "Hello";
 
+/*
 Expected Result:
-  A class library project is created with a default Class1.cs file */
+  score is set to an integer value of 100 and message is set to a string
+  value of Hello */
 
 __________________________________________________________________________
 /* 
-4 Using a Class library in a Console App
-  What it does: Adds a reference to the class library so its code can be
-    used in an application
-  Why use it: Separates business logic from application logic */
+4 Using Variables in Expressions
+  What it does: You can perform operations using variables like addition,
+    concatenation, or logical checks. */
 __________________________________________________________________________
 /* 
-Example: Using the class library in a console app */
-  GreetingService service = new GreetingService();
-  Console.WriteLine(service.GetGreeting("Alexandria"));
+Example: */
+  int x = 10;
+  int y = 5;
+  int sum = x + y;
+  Console.WriteLine($"Sum: {sum}");
+
+  bool isGreater = x > y;
+  Console.WriteLine($"Is x greater than y? {isGreater}");
 
 /* Expected Results:
-  Hello, Alexandria is printed to the console */
+  Sum: 15
+  Is x greater than y? True */
       
 __________________________________________________________________________
 /* 
-5 Common Uses of Class Libraries
-  Uses include:
-    - Business logic
-    - Utility functions
-    - Data access code
-    - Shared validation rules */
+5 Variable Scope
+  What it does: Variables exist only in the context where they are 
+    declared
+  Why use it: Helps prevent naming conflicts and unexpected behavior */
 __________________________________________________________________________
+/*
+Example:
+  - Local variables: Inside a method
+  - Class variables (fields): Available to all methods in a class */
 
 __________________________________________________________________________
 /* 
-6 Class Libraries vs Console Applications
-  Class Library:
-    - No Main method
-    - Cannot run on its own
-    - Designed for reuse
-    
-  Console App:
-    - Has an entry point (Main)
-    - Runs independently
-    - Consumes class libraries */
+6 Best Practices for Variables
+  - Use meaningful names (e.g., userName, totalScore)
+  - Declare variables close to where they are used
+  - Initialize variables before use
+  - Keep scope as small as possible */
 __________________________________________________________________________
