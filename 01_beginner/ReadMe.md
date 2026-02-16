@@ -23,7 +23,7 @@ At this stage, the emphasis is on:
   - [Class libraries (reusable code components)](01_.Net_Overview/06_Class_libraries_(reusable_code_components).cs)
 
 ### C# Basics
-- [Variables: Declaring and using different types (`int`, `string`, `bool`, etc.)](02_Csharp_Basics)
+- [Variables: Declaring and using different types (`int`, `string`, `bool`, etc.)](02_Csharp_Basics/01_Variables:_Declaring_and_using_different_types_(int,_string,_bool,_etc.).cs)
 - Loops: `for`, `while`, `foreach`
 - Conditionals: `if`, `else if`, `else`, `switch`
 - Methods: Declaring, calling, passing, parameters, and returning values
