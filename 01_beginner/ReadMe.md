@@ -24,7 +24,7 @@ At this stage, the emphasis is on:
 
 ### C# Basics
 - [Variables: Declaring and using different types (`int`, `string`, `bool`, etc.)](02_Csharp_Basics/01_Variables:_Declaring_and_using_different_types_(int,_string,_bool,_etc.).cs)
-- Loops: `for`, `while`, `foreach`
+- [Loops: `for`, `while`, `foreach`](02_Csharp_Basics/02_Loops:_for,_while,_foreach.cs)
 - Conditionals: `if`, `else if`, `else`, `switch`
 - Methods: Declaring, calling, passing, parameters, and returning values
 - Classes & Objects:
